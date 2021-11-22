@@ -100,7 +100,6 @@ text-decoration: none;
 
 #main-image > div {
   padding: 1px 0 0 1px;
-  border: 6px solid rgba(108, 25, 224,0.8);
 }
 
 #main-image-right { 
@@ -278,7 +277,7 @@ text-decoration: none;
   box-sizing: border-box;
   overflow: hidden;
   background-size: cover;
-  /*padding isn't workin*/
+  /*padding isn't working*/
   padding-left: 30px;
 }
 
