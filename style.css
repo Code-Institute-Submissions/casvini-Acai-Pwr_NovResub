@@ -72,7 +72,7 @@ h3 {
 .menu-top a:hover {
   border-bottom: 3px solid black;
   margin: 6px;
-  size: bigger;
+  resize: bigger;
   
 }
 
@@ -100,7 +100,6 @@ text-decoration: none;
 
 #main-image > div {
   padding: 1px 0 0 1px;
-  border: 6px solid, rgba(108, 25, 224,0.8);
 }
 
 #main-image-right { 
@@ -147,10 +146,9 @@ text-decoration: none;
   padding: 9px;
   width: 43%;
   float: left;
-  background-color: rgba(0, 0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
   border: 3px solid white;
-  //position: relative;
   color: white;
 }
 
@@ -158,80 +156,84 @@ text-decoration: none;
   padding: 9px;
   width: 43%;
   float: right;
-  background-color: rgba(0, 0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
   border: 3px solid white;
-  //position: relative;
   color: white;
 }
 
-}
 #ways {
   height: 1200px;
   width: 100%;
 }
 
-
-  
-  
-
-.box1 {
-  float: left;
-  width: 46%;
-  height: 48%;
-  border: 2px dashsolided #7215eb;
-  clear: both;
-  display: inline;
-  
+#top-ways, #bottom-ways {
+  width: 98%;
+  margin: 5px auto;
+  display: flex;
+  height: 600px;
+  padding: 3px;
   
 }
-box2 {
-  float: right;
-  width: 46%;
+  
+#ways h2 {
+  padding: 6px;
+  margin: 3px;
+}
+
+.box1, .box2 {
+  width: 48%;
   height: 48%;
   border: 2px solid #7215eb;
-  clear: both;
-  display: inline;
-  
+  display: inline-block;
+  overflow: hidden;
+  margin: 2px;
 }
 
 .image-ways-1 {
-  height: 50%;
-  width: 50%;
-  display: flex;
-  overflow: hidden;
-  
+  height: 48%;
+  width: 48%;
+  display: inline;
+  justify-content: right;
+  box-sizing: border-box;
+  padding: 2px;
+  margin: 2px;
 }
 
 .image-ways-2 {
-  height: 50%;
-  width: 50%;
-  display: flex;
-  overflow: hidden;
-  
+  height: 48%;
+  width: 48%;
+  display: inline;
+  float: left;
+  box-sizing: border-box;
+  padding: 2px;
+  margin: 2px;
 }
 
 .para-ways-1 {
-  height: 48%;
+  height: 24%;
   width: 24%;
-  display: flex;
-  
+  display: inline;
+  justify: left;
+  padding: 2px;
+  margin: 2px;
 }
 
 .para-ways-2 {
   height: 48%;
-  width: 24%;
-  display: flex;
-  
+  width: 48%;
+  display: inline;
+  float: right;
+  padding: 2px;
+  margin: 2px;
 }
 
 #left-column-lifestyle {
-  padding: 9px;
+  padding:9px;
   width: 27%;
   float: left;
   text-align: center;
   border: 3px solid #7215eb;
-  //position: relative;
 }
 
 #right-column-lifestyle {
@@ -240,7 +242,7 @@ box2 {
   float: right;
   text-align: center;
   border: 3px solid #7215eb;
-  //position: relative;
+  
 }
 
 #center-column-lifestyle {
@@ -249,12 +251,16 @@ box2 {
   width: 27%;
   text-align: center;
   border: 3px solid #7215eb;
-  //position: relative;
+
 }
 
 #lifestyle {
   height: 600px;
   width: 100%;
+}
+
+#lifestyle > div {
+  line-height: 25px;
 }
 
 #break {
@@ -263,18 +269,20 @@ box2 {
 }
 
 #break-off-image {
-  height: 100%;
-  width: 100%;
+  height: 98%;
+  width: 98%;
   background-image: url('sujo-acai.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   box-sizing: border-box;
   overflow: hidden;
   background-size: cover;
+  /*padding isn't working*/
+  padding-left: 30px;
 }
 
 #gallery {
-  height: 450px;
+  height: 900px;
   clear: both;
   line-height: 30px;
   column-count: 4;
@@ -299,7 +307,7 @@ footer {
 }
 
 .social-media > li {
-  display: in-line;
+  display: inline;
 }
 
 .social-media i {
@@ -313,4 +321,45 @@ hr {
   border-top: 1px solid #3a3a3a;
   width: 100%;
   margin: 5px 0;
+}
+
+/* Readjusting webpage for different screen sizes*/
+
+@media screen and (max-width: 800px) {
+  
+  #gallery {
+    height: 450px;
+  }
+
+  #break {
+    height: 300px;
+    width: 98%;
+  }
+
+  #lifestyle {
+    width: 98%;
+    height: 750px;
+    margin: 0 auto;
+  }
+
+  #left-column-lifestyle, #right-column-lifestyle, #center-column-lifestyle {
+    width: inherit;
+    padding: 5px 20px;
+    text-align: center;
+  }
+
+  #left-about h3, #right-about h3 {
+    width: 100%;
+  }
+
+  #left-about p, #right-about p {
+  padding: 0 20px;
+  }
+
+  #about {
+    height: 30px;
+  }
+  h3 {
+    font-size: 90%;
+  }
 }
