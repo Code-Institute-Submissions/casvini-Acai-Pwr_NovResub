@@ -9,31 +9,48 @@
 body {
   font-family: Manrope, sans-serif;
   text-align: center;
-  font-size: 100%;
 }
 
-h1, h2, h3 {
-text-align: center;
-text-transform: uppercase;
-letter-spacing: 3px;
-color: #7215eb;
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h1 {
   font-family: "Shadows into Light", cursive;
-  font-size: 150%;;
+  font-size: 300%;
+  color: #8518de;
+  letter-spacing: 3px;
 }
 
 h2 {
   font-family:  "Poiret One", cursive;
-  font-size: 125%;
-  text-align: center;
+  font-size: 200%;
+  color: #7215eb;
+  letter-spacing: 2px;
 }
 
 h3 {
   font-family: "Poiret One", cursive;
-  font-size: 115%;
-  text-align: center;
+  font-size: 150%;
+  padding: 0 0 1rem 0;
+  color: #7215eb;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  font-size: 125%;
+  font-family: "Shadows into Light", cursive;
+  color: #8518de;
+  letter-spacing: 1px;
+}
+
+p { 
+  font-size: 125%;
+  letter-spacing: 1px;
+  justify-content: left;
+  font-family: Manrope, sans-serif;
+  color: #817887;
 }
 
 #logo {
@@ -44,17 +61,14 @@ h3 {
 
 #menu {
  width: 100%;
- height: 240px;
  background-color: #e0dae8;
 }
 
 .menu-top {
   font-family: Manrope, sans-serif;
   font-size: 125%;
-  margin: auto;
-  letter-spacing: 3px;
-  padding: 1%;
-  text-align: center;
+  letter-spacing: 2px;
+  padding: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -66,24 +80,13 @@ h3 {
 
 .menu-top a {
   text-decoration: none;
-  color: black;
+  color: #817887;
 }
 
 .menu-top a:hover {
-  border-bottom: 3px solid black;
-  margin: 6px;
-  resize: bigger;
-  
+  border-bottom: 3px solid #817887;
+  margin: 12px;
 }
-
-/* Part being disconsidered
-
-#menu-bottom li {
-  text-align: center;
-  padding: 4px;
-  margin: 10px 50px;
-  display: in-line;
-}*/
 
 ul {
 list-style: none;
@@ -93,35 +96,87 @@ a {
 text-decoration: none;
 }
 
+
+#contact h2 {
+  padding: 1.5rem;
+  margin: 0.5rem;
+}
+
+#contact p {
+  display: block;
+  width: 50%;
+  padding: 12px 0 0 0;
+  margin: 0 auto;
+}
+
+#community h3 {
+  font-size: 125%;
+}
+
+#form-container {
+  padding-left: 10rem;
+  padding-top: 0.5rem;
+}
+
+form {
+  line-height: 50px;
+  text-align: center;
+  font-size: 150%;
+}
+
+label {
+  padding: 12px;
+  margin: 0 auto;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #8518de;
+  color: #fcfaeb;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.input-field {
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 2px solid #7215eb;
+  width: 50%;
+  font-size: 1rem;
+  display: block;
+}
+
 #main-image {
-  height: 600px;
+  height: 450px;
   width: 100%;
+  display: inline-block;
+  padding: 0.5rem;
 }
 
 #main-image > div {
-  padding: 1px 0 0 1px;
+  padding: 1rem;
 }
 
 #main-image-right { 
-  float: right;
   background-image: url('acai2.webp');
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  height: 426px;
   width: 49%;
   box-sizing: border-box;
-  overflow: hidden;
+  display: inline-block;
 }
 
 #main-image-left {
-  float: left;
   background-image: url('acai1.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  height: 419px;
   width: 49%;
   box-sizing: border-box;
-  overflow: hidden;
+  display: inline-block;
 }
 
 .main {
@@ -131,146 +186,134 @@ text-decoration: none;
   overflow: hidden;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  //position: absolute;
   background-size: cover;
-  height: 600px;
-  width: 100%;
   background-position: center;
 }
 
-#about {
-  padding: 6px 0px 30px 0px;
+.main p {
+  color: #fcfaeb;
+}
+
+#about h2 {
+  padding: 30px 0px 30px 0px;
+  color: #fcfaeb;
+  font-size: 160%;
+}
+
+.container {
+  width: 100%;
 }
 
 #left-about {
   padding: 9px;
-  width: 43%;
+  width: 50%;
   float: left;
   background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
-  border: 3px solid white;
-  color: white;
+  border: 3px solid #fcfaeb;
+  color: #fcfaeb;
 }
 
 #right-about {
   padding: 9px;
-  width: 43%;
+  width: 50%;
   float: right;
   background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
-  border: 3px solid white;
-  color: white;
+  border: 3px solid #fcfaeb;
+  color: #fcfaeb;
 }
 
-#ways {
-  height: 1200px;
-  width: 100%;
-}
-
-#top-ways, #bottom-ways {
-  width: 98%;
-  margin: 5px auto;
-  display: flex;
-  height: 600px;
-  padding: 3px;
-  
+#uses {
+  background-color: rgb(228, 223, 235);
 }
   
-#ways h2 {
-  padding: 6px;
-  margin: 3px;
+#uses > h2 {
+  padding: 30px;
+  margin: 15px;
 }
 
-.box1, .box2 {
+.box {
   width: 48%;
-  height: 48%;
-  border: 2px solid #7215eb;
   display: inline-block;
   overflow: hidden;
   margin: 2px;
+  border: 3px solid #fcfaeb;
 }
 
-.image-ways-1 {
-  height: 48%;
-  width: 48%;
+.image-ways {
   display: inline;
-  justify-content: right;
   box-sizing: border-box;
   padding: 2px;
   margin: 2px;
+  width: 50%;
 }
 
-.image-ways-2 {
-  height: 48%;
-  width: 48%;
+#image-defect {
   display: inline;
-  float: left;
   box-sizing: border-box;
   padding: 2px;
   margin: 2px;
+  width: 80%;
 }
-
-.para-ways-1 {
-  height: 24%;
-  width: 24%;
+.para-ways {
   display: inline;
-  justify: left;
   padding: 2px;
   margin: 2px;
 }
 
-.para-ways-2 {
-  height: 48%;
-  width: 48%;
-  display: inline;
-  float: right;
-  padding: 2px;
-  margin: 2px;
+.para-ways {
+ color: #817887;
 }
 
 #left-column-lifestyle {
-  padding:9px;
-  width: 27%;
-  float: left;
+  padding:12px;
+  width: 30%;
   text-align: center;
-  border: 3px solid #7215eb;
+  border: 3px solid #fcfaeb;
 }
 
 #right-column-lifestyle {
-  padding: 9px;
-  width: 27%;
-  float: right;
-  text-align: center;
-  border: 3px solid #7215eb;
-  
+  padding: 12px;
+  width: 30%;
+  text-align: center;  
+  border: 3px solid #fcfaeb;
 }
 
 #center-column-lifestyle {
   padding: 12px;
   margin: 0 auto;
-  width: 27%;
+  width: 30%;
   text-align: center;
-  border: 3px solid #7215eb;
+  border: 3px solid #fcfaeb;
+}
 
+#container-lifestyle {
+  display: flex;
 }
 
 #lifestyle {
-  height: 600px;
-  width: 100%;
+  background-color: rgb(228, 223, 235);
 }
 
 #lifestyle > div {
   line-height: 25px;
+  
 }
 
-#break {
-  height: 600px;
-  width: 100%;
+#lifestyle h2 {
+  padding: 30px;
+  margin: 15px;
+  font-size: 200%;
+}
+
+#lifestyle p {
+  color: #817887;
 }
 
 #break-off-image {
-  height: 98%;
-  width: 98%;
+  height: 100%;
+  width: 100%;
   background-image: url('sujo-acai.jpeg');
   background-repeat: no-repeat;
   background-position: center;
@@ -282,7 +325,6 @@ text-decoration: none;
 }
 
 #gallery {
-  height: 900px;
   clear: both;
   line-height: 30px;
   column-count: 4;
@@ -295,10 +337,11 @@ text-decoration: none;
 #gallery img {
   width: 100%;
   overflow: hidden;
+  display: flex;
 }
 
 footer {
-  height: 150px;
+  background-color: #e0dae8;
 }
 
 .social-media {
@@ -314,12 +357,11 @@ footer {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
-  color: #3a3a3a;
+  color: #817887;
 }
 
 hr {
-  border-top: 1px solid #3a3a3a;
-  width: 100%;
+  border-top: 1px solid #817887;
   margin: 5px 0;
 }
 
@@ -328,24 +370,17 @@ hr {
 @media screen and (max-width: 800px) {
   
   #gallery {
-    height: 450px;
+    column-count: 2;
   }
 
   #break {
-    height: 300px;
+    height: 450px;
     width: 98%;
   }
 
   #lifestyle {
     width: 98%;
-    height: 750px;
     margin: 0 auto;
-  }
-
-  #left-column-lifestyle, #right-column-lifestyle, #center-column-lifestyle {
-    width: inherit;
-    padding: 5px 20px;
-    text-align: center;
   }
 
   #left-about h3, #right-about h3 {
@@ -353,13 +388,67 @@ hr {
   }
 
   #left-about p, #right-about p {
-  padding: 0 20px;
+    padding: 0 20px;
+  }
+  
+  h3 {
+    font-size: 120%;
   }
 
-  #about {
-    height: 30px;
+  #left-column-lifestyle, #center-column-lifestyle, #right-column-lifestyle {
+    width: 100%;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    text-align: center;
+    border: 2px solid #fcfaeb;
   }
-  h3 {
-    font-size: 90%;
+ #container-lifestyle {
+   display: block;
+ }
+
+ #left-about, #right-about {
+   display: block;
+   width: 100%;
+ }
+
+ .box {
+   display: block;
+   width: 96%;
+   padding: 1rem;
+   margin: 1rem;
+   border: 2px solid #fcfaeb;
+ }
+
+ 
+.image-ways {
+  width: 70%;
+  padding: 1rem;
+  margin: 1rem;
+}
+}
+
+@media screen and (max-width: 500px) {
+
+  .menu-top {
+  font-size: 100%;
+}
+
+.menu-top > li {
+padding: 5px;
+}
+
+ /* #main-image-right, #main-image-left {
+  display: block;
+  margin: 0 auto;
+  height: 210px;
+  padding: 1rem;
+} */
+
+  .image-ways {
+    width: 90%;
   }
+
+  #image-defect {
+    width: 80%;
+}
 }
