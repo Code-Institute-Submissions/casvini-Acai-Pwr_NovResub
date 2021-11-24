@@ -25,19 +25,19 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="index.html#about">About</a>
           </li>
           <li>
-            <a href="#uses">Uses</a>
+            <a href="index.html#uses">Uses</a>
           </li>
           <li>
-            <a href="#lifestyle">Lifestyle</a>
+            <a href="index.html#lifestyle">Lifestyle</a>
           </li>
           <li>
             <a href="contact.html">Contact</a>
           </li>
           <li>
-            <a href="#gallery">Gallery</a>
+            <a href="index.html#gallery">Gallery</a>
           </li>
         </ul>
       </nav>
@@ -45,29 +45,38 @@
       </header>
     </section>
 
-    <section>
+    <section id="contact">
       <h2><strong><em>Contact Us!</em></strong></h2>
-      <p>We're still working on our physical store and acai bar and lounge, but that doesn't mean you cannot be a part of our community and do so right now!</p>
-      <p>Want receive our latest news, know where and when we're meeting and receive new acai tips and exclusive recipes? Then, what are you waiting for?</p>
+      <p>We're still working on our physical store/acai bar and lounge, but that doesn't mean you cannot be a part of our community and do so right now!</p>
+      <p>Want to receive our latest news, know where and when we're meeting and receive new acai tips and exclusive recipes? Then, what are you waiting for?</p>
+    </section>
       <hr>
-      <h2>Join our Community!</h2>
-      <form id="form">
-        <div>
-          <label for="name">Full Name</label>
-          <input type="text" id="name" placeholder="Your Name">
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Your email here">
-        </div>
-        <div>
-          <label for="message">Message Us</label>
-          <textarea type="text" id="message" rows="40" cols="40" placeholder="Your message to us"></textarea>
-        </div>
-        <input type="submit" value="Send">
+    <section id="community">
+      <h3>Join our Community!</h3>
+      <div id="form-container">
+        <form id="form">
+          <div>
+            <label for="name">Full Name</label>
+            <input class="input-field" type="text" id="name" placeholder="Your Name:" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+           <input class="input-field" type="email" id="email" placeholder="Your email here:" required>
+          </div>
+          <div>
+            <label for="message">Contact Us</label>
+            <textarea class="input-field" type="text" id="message" rows="20" cols="60" placeholder="Your message to us:" required></textarea>
+          </div>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+    </section>
+
+    <hr>
 
       <footer>
-      <ul class="social-media">
+        <h4>Find Us on Social Media!</h4>
+        <ul class="social-media">
         <li>
           <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit Our Instagram Page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
         </li>
