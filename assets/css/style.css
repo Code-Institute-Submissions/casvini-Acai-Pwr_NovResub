@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&family=Manrope:wght@200&family=Poiret+One&family=Shadows+Into+Light&family=Tenor+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+  font-family: Manrope, sans-serif;
+  text-align: center;
+  background-color: #fcfaeb;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Shadows into Light", cursive;
+  font-size: 300%;
+  color: #8518de;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-family:  "Poiret One", cursive;
+  font-size: 200%;
+  color: #7215eb;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: "Poiret One", cursive;
+  font-size: 150%;
+  padding: 0 0 1rem 0;
+  color: #7215eb;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  font-size: 125%;
+  font-family: "Shadows into Light", cursive;
+  color: #8518de;
+  letter-spacing: 1px;
+}
+
+p { 
+  font-size: 125%;
+  letter-spacing: 1px;
+  justify-content: left;
+  font-family: Manrope, sans-serif;
+  color: #817887;
+}
+
+#logo {
+  padding: 6px 40px 6px 12px;
+  font-size: 300%;
+  text-align: center;
+}
+
+#menu {
+ width: 100%;
+ background-color: #e0dae8;
+}
+
+.menu-top {
+  font-family: Manrope, sans-serif;
+  font-size: 125%;
+  letter-spacing: 2px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-top > li {
+ list-style-type: none;
+ padding: 6px;
+}
+
+.menu-top a {
+  text-decoration: none;
+  color: #817887;
+}
+
+.menu-top a:hover {
+  border-bottom: 3px solid #817887;
+  margin: 12px;
+}
+
+ul {
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+
+#contact h2 {
+  padding: 1.5rem;
+  margin: 0.5rem;
+}
+
+#contact p {
+  display: block;
+  width: 50%;
+  padding: 12px 0 0 0;
+  margin: 0 auto;
+}
+
+#community h3 {
+  font-size: 125%;
+}
+
+#form-container {
+  padding: 1rem;
+}
+
+form {
+  line-height: 50px;
+  text-align: center;
+  font-size: 150%;
+}
+
+label {
+  padding: 12px;
+  margin: 0 auto;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #8518de;
+  color: #fcfaeb;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.input-field {
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 2px solid #7215eb;
+  width: 50%;
+  font-size: 1rem;
+  display: block;
+}
+
+#main-image {
+  height: 450px;
+  width: 100%;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+#main-image > div {
+  padding: 1rem;
+}
+
+#main-image-right { 
+  background-image: url('../../assets/gallery/acai2.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 426px;
+  width: 49%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#main-image-left {
+  background-image: url('../../assets/gallery/acai1.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 419px;
+  width: 49%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.main {
+  
+  background-image: url('../../assets/gallery/acai3.jpeg');
+  filter: grayscale(100%);
+  overflow: hidden;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main p {
+  color: #fcfaeb;
+}
+
+#about h2 {
+  padding: 30px 0px 30px 0px;
+  color: #fcfaeb;
+  font-size: 160%;
+}
+
+.container {
+  width: 100%;
+}
+
+#left-about {
+  padding: 9px;
+  width: 50%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  border: 3px solid #fcfaeb;
+  color: #fcfaeb;
+}
+
+#right-about {
+  padding: 9px;
+  width: 50%;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  border: 3px solid #fcfaeb;
+  color: #fcfaeb;
+}
+  
+#uses > h2 {
+  padding: 30px;
+  margin: 15px;
+}
+
+.box {
+  width: 48%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 2px;
+  border: 3px solid #fcfaeb;
+  background-color: rgb(228, 223, 235);
+}
+
+.image-ways {
+  display: inline;
+  box-sizing: border-box;
+  padding: 2px;
+  margin: 2px;
+  width: 50%;
+}
+
+#image-defect {
+  display: inline;
+  box-sizing: border-box;
+  padding: 2px;
+  margin: 2px;
+  width: 80%;
+}
+.para-ways {
+  display: inline;
+  padding: 2px;
+  margin: 2px;
+}
+
+.para-ways {
+ color: #817887;
+}
+
+#left-column-lifestyle {
+  padding:12px;
+  width: 30%;
+  text-align: center;
+  border: 3px solid #fcfaeb;
+  background-color: rgb(228, 223, 235);
+}
+
+#right-column-lifestyle {
+  padding: 12px;
+  width: 30%;
+  text-align: center;  
+  border: 3px solid #fcfaeb;
+  background-color: rgb(228, 223, 235);
+}
+
+#center-column-lifestyle {
+  padding: 12px;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+  border: 3px solid #fcfaeb;
+  background-color: rgb(228, 223, 235);
+}
+
+#container-lifestyle {
+  display: flex;
+}
+
+#lifestyle {
+  background-color: #fcfaeb;
+}
+
+#lifestyle > div {
+  line-height: 25px;
+  
+}
+
+#lifestyle h2 {
+  padding: 30px;
+  margin: 15px;
+  font-size: 200%;
+}
+
+#lifestyle p {
+  color: #817887;
+}
+
+#break {
+  width: 100%;
+  height: 568px;
+}
+
+#break-off-image {
+  height: 100%;
+  width: 100%;
+  background-image: url('../../assets/gallery/sujo-acai.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-size: cover;
+  /*padding isn't working*/
+  padding-left: 30px;
+}
+
+#gallery {
+  clear: both;
+  line-height: 30px;
+  column-count: 3;
+  column-gap: 1px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-color: #fcfaeb;
+}
+
+#gallery img {
+  width: 100%;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #e0dae8;
+}
+
+.social-media {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.social-media > li {
+  display: inline;
+}
+
+.social-media i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #817887;
+}
+
+hr {
+  border-top: 1px solid #817887;
+  margin: 5px 0;
+}
+
+/* Readjusting webpage for different screen sizes*/
+
+@media screen and (max-width: 800px) {
+  
+  #gallery {
+    column-count: 2;
+  }
+
+  #break {
+    height: 426px;
+    width: 98%;
+  }
+
+  #lifestyle {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  #left-about h3, #right-about h3 {
+    width: 100%;
+  }
+
+  #left-about p, #right-about p {
+    padding: 0 20px;
+  }
+  
+  h3 {
+    font-size: 120%;
+  }
+
+  #left-column-lifestyle, #center-column-lifestyle, #right-column-lifestyle {
+    width: 100%;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    text-align: center;
+    border: 2px solid #fcfaeb;
+  }
+ #container-lifestyle {
+   display: block;
+ }
+
+ #left-about, #right-about {
+   display: block;
+   width: 100%;
+ }
+
+ .box {
+   display: block;
+   width: 96%;
+   padding: 1rem;
+   margin: 1rem;
+   border: 2px solid #fcfaeb;
+ }
+
+ 
+  .image-ways {
+    width: 70%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#contact p {
+  width: 75%;
+  padding-bottom:6px;
+}
+}
+
+@media screen and (max-width: 500px) {
+
+  .menu-top {
+  font-size: 100%;
+}
+
+.menu-top > li {
+padding: 5px;
+}
+
+  .image-ways {
+    width: 90%;
+  }
+
+  #image-defect {
+    width: 80%;
+}
+}
