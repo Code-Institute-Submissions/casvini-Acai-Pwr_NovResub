@@ -3,7 +3,7 @@
 
 The website is intended as a static front end application that’s easy to navigate, user friendly and is clear in purpose. In the contact form, users can be redirected to a sign up page where, by providing their details, they can be sent more information on products, recipes, event and gatherings created, hosted and organised by us/our community.
 
-You can view the deployed website [here]().
+You can view the deployed website [here](https://casvini.github.io/Acai-Pwr/).
 
 ![Website viewed in different screen sizes](readme-images/am-i-responsive.png)
 
@@ -159,9 +159,9 @@ Layout and content: The content is divided in 5 parts: the About section, explai
 ## Credits
 - ### Content
   - Mostly all content was created from the author's knowledge on the fruit itself, however some things about the history, production and the benefits of consuming it were found on different sources on Google. Some of the links (that actually contributed to the content of the website) can be found below:
-    - [Link 1]().
-    - [Link 2]().
-    - [Link 3]().
+    - [Link 1](https://www.healthline.com/nutrition/benefits-of-acai-berries).
+    - [Link 2](https://www.brit.co/who-invented-acai-bowl/).
+    - [Link 3](https://www.thecitybowls.com/blog/aa-a-short-and-sweet-history).
 
 
 - ### Media
@@ -180,7 +180,7 @@ Layout and content: The content is divided in 5 parts: the About section, explai
   - From the source section drop-down menu, select the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a message indicating the deployment has been successful.
 
-  The live link can be found above, or alternatively [here]().
+  The live link can be found above, or alternatively [here](https://casvini.github.io/Acai-Pwr/).
 
 
 
