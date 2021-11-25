@@ -148,6 +148,8 @@ Layout and content: The content is divided in 5 parts: the About section, explai
 
 - Mainly because the images weren't compressed/adjusted before being uploaded, in some important areas there is a minimal discrepancy in layout as shown above. As explained above, that could have easily been avoided/fixed, but for quality purposes it was chosen to keep them as they were and adjust the layout of the page around it.
 
+- - Another issue I had was regarding comiting. As I'm still learning about coding and the procedures for it, I made the mistake to start my project on Replit instead of Gitpod or VS Code. Later on, I created a repository on repl it without having it linked to my Github account. When I found that out, most of the coding for the CSS and the HTML had been developed already and, to add to the problem, the repository on Replit could not get uploaded to Github and the initial and perhaps the most critical comiting could not be stored. For the convenience, I finished the project using Replit and comiting and pushing the code from there, trying to comit as much as I could after doing the changes necessary to finish the styling of the project, but I admit that it looks 'not so nice' and that is a huge take away point for me with this project.
+
 ![Bug Main Images](readme-images/bug4.png).
 
 
